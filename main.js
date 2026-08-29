@@ -41,15 +41,6 @@
 
 // Returns all .item elements as a NodeList.
 
-// 5. Which methods return live collections?
-
-// These methods return live HTMLCollections:
-
-// getElementsByClassName()
-// getElementsByTagName()
-
-// querySelectorAll() returns a static NodeList. The assignment specifically compares these live and static behaviors.
-
 
 let intro = document.getElementById("intro");
 console.log(intro);
